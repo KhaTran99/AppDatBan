@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppDatBan</string>
+    <string name="food_house">Food House</string>
+    <string name="deal_hot">Deal Hot</string>
+    <string name="uu_dai_thanh_vien">Ưu đãi  thanh viên</string>
+    <string name="thanh_vien_moi">Thanh viên mới</string>
+    <string name="uu_dai_doi_tac">Ưu đãi đối tác</string>
+    <string name="xem_them">Xem thêm</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <string name="order">Đặt chỗ</string>
+    <string name="menu">Menu</string>
+    <string name="Tai_khoan">Tài khoản</string>
+    <string name="Dat_cho">Đặt chỗ</string>
+    <string name="thong_bao">Thông báo</string>
+    <string name="Ma_giam_gia">Mã giảm giá</string>
+    <string name="Chon_cua_hang">Chọn của hàng</string>
+    <string name="So_luong_suat">Số lượng suất</string>
+    <string name="khuyen_mai">Khuyến mãi</string>
+    <string name="so_dien_thoai">Số điện thoại:</string>
+    <string name="diem_tich_luy">Điểm tích lũy:</string>
+    <string name="lich_su_dat_cho">Lịch sử đặt chỗ</string>
+    <string name="email">Email:</string>
+    <string name="trung_tam_tro_giup">Trung tâm trợ giúp</string>
+    <string name="cai_dat_ung_dung">Cài đặt ứng dụng</string>
+    <string name="kha_tran">Cửa hàng</string>
+    <string name="cua_hang">Cửa hàng</string>
+    <string name="dang_ki">Đăng Kí</string>
+    <string name="dang_nhap">Đăng Nhập</string>
+    <string name="userid">Email/Số điện thoai/Tên đăng nhập</string>
+    <string name="mat_khau">Mật Khẩu</string>
+    <string name="nhap_lai_mat_khau">Nhập lại mật khẩu</string>
+    <string name="username">Username</string>
+    <string name="ma_khuyen_mai_cua_ban">Mã Khuyễn Mãi Của Bạn</string>
+    <string name="chi_duong">Chỉ Đường</string>
+    <string name="vi_tri">Vị trí</string>
+    <string name="tin_tuc">Tin Tức</string>
+</resources>

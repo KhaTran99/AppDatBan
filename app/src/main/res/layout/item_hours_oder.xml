@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_40sdp"
+    android:layout_height="@dimen/_40sdp"
+    android:layout_margin="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:id="@+id/rlNoCheck"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vien_iteam_time_oder">
+
+        <TextView
+            android:id="@+id/tv_item_hours_oder_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="18:30"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/rlCheck"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vien_item_house_check">
+
+        <TextView
+            android:id="@+id/tv_item_hours_oder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="18:30"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

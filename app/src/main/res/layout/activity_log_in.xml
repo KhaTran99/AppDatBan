@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:text="@string/dang_nhap"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:text="Trợ giúp"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_baseline_arrow_back_24" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:background="@drawable/gradient">
+
+            </TextView>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo_foodhouse2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/etUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+                        android:hint="Email/Số điện thoai/Tên đăng nhập"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:paddingRight="25dp"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/tvErrorUsername"
+                        android:textSize="10dp"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:textColor="@color/Red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/etPass"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:drawableLeft="@drawable/ic_baseline_lock_24"
+                            android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+                            android:hint="Mật khẩu                          "
+                            android:inputType="textPassword"
+                            android:lines="1"
+                            android:maxLength="16"
+                            android:maxLines="1"
+                            android:paddingRight="80dp"
+                            android:textSize="14dp" />
+
+                        <Button
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_margin="5dp"
+                            android:background="#FFFFFF"
+                            android:text="Quên?"
+                            android:textAllCaps="false"
+                            android:textColor="#679ADE"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+                    <TextView
+                        android:id="@+id/tvErrorPassWord"
+                        android:textSize="10dp"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:textColor="@color/Red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btnDangNhap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Đăng Nhập"
+                        android:textAllCaps="false"
+                        android:textColor="@color/Nen"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <Button
+                            android:id="@+id/btnDangKi"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="Đăng Kí"
+                            android:textAllCaps="false"
+                            android:textColor="#679ADE"
+                            android:textSize="14dp" />
+
+                        <Button
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="Đăng nhập bằng SMS"
+                            android:textAllCaps="false"
+                            android:textColor="#679ADE"
+                            android:textSize="14dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:text="Hoặc"
+                    android:textSize="14dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="160dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:background="#4186F5"
+                        android:drawableLeft="@drawable/googleoke"
+                        android:padding="2dp"
+                        android:text="Tiếp tục với Google"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="#4186F5"
+                        android:drawableLeft="@drawable/facebookoke"
+                        android:padding="2dp"
+                        android:text="Tiếp tục với Facebook"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="#000000"
+                        android:drawableLeft="@drawable/appleoke"
+                        android:padding="2dp"
+                        android:text="Tiếp tục với Apple"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</layout>

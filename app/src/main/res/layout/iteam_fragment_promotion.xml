@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@color/Nen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_FragmentPromotion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/thucdon1" />
+
+        <TextView
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:id="@+id/tvTitle_FragmentPromotion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="Nội dung hfghnfghjhfg"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/tvContent_FragmentPromotion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:lines="2"
+            android:maxLines="2"
+            android:text="Nội dung hfghnfghjhfg"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

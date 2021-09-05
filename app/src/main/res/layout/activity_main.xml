@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+
+            android:id="@+id/Frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/ll"></FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <ImageButton
+                android:id="@+id/btnHome"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/home"
+
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/btnPomo"
+
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/promotions"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+            <!--            style="?android:attr/borderlessButtonStyle"-->
+
+            <Button
+
+
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+
+            <ImageButton
+                android:id="@+id/btnNoti"
+
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/notification"
+
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+
+            <ImageButton
+                android:id="@+id/btnPeson"
+
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/user"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnOrder"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/btn_tron">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/reception" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvCheckInternet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ll"
+            android:layout_marginBottom="@dimen/_5sdp"
+
+
+            android:background="@color/white"
+            android:textSize="@dimen/_28sdp" />
+    </RelativeLayout>
+
+
+</layout>

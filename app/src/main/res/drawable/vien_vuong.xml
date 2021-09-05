@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--độ bo goc-->
+    <corners android:radius="5dp" />
+    <!--mau-->
+    <solid android:color="@color/white" />
+    <!--màu viền và độ rông-->
+    <stroke
+
+        android:color="#302A2A"
+        android:width="1dp" />
+
+    <!--    <size-->
+    <!--        android:width="165dp"-->
+    <!--        android:height="40dp" />-->
+
+
+</shape>

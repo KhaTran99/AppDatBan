@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:backgroundTint="@color/Nen">
+
+    <RelativeLayout
+        android:id="@+id/rl_Notification"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+        <TextView
+            android:id="@+id/tv_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_Notification"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_tron"
+            android:src="@drawable/thucdon1" />
+
+        <TextView
+            android:id="@+id/tv_TitleNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_toRightOf="@id/img_Notification"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLines="2"
+            android:text="Thông báo sự kiện"
+            android:textColor="#090909"
+            android:textSize="@dimen/_14sdp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

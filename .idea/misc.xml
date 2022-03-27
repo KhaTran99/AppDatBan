@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/AppDatBan/app/src/main/res/layout/activity_dang_ki.xml" value="0.145703125" />
+        <entry key="..\:/AndroidStudioProjects/AppDatBan/app/src/main/res/layout/activity_main.xml" value="0.13359375" />
+        <entry key="..\:/AndroidStudioProjects/AppDatBan/app/src/main/res/layout/edit_user_fragment.xml" value="0.1284153005464481" />
+        <entry key="..\:/AndroidStudioProjects/AppDatBan/app/src/main/res/layout/home_fragment.xml" value="0.13359375" />
+        <entry key="..\:/AndroidStudioProjects/AppDatBan/app/src/main/res/layout/iteam_fragment_promotion.xml" value="0.13359375" />
       </map>
     </option>
   </component>

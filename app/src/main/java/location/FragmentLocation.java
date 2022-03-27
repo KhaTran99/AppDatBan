@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.appdatban.MainActivity;
 import com.example.appdatban.databinding.LocationFragmentBinding;
 
-public class FragmentLocation extends Fragment {
+public class  FragmentLocation extends Fragment {
     AdapterLocation adapterLocation;
     LinearLayoutManager layoutManagerLocation;
     public static FragmentLocation newInstance() {
